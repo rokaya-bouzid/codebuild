@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
         - name: springboot
-          image: spring:1.0
+          image: 744253970791.dkr.ecr.eu-west-1.amazonaws.com/testecr:v3
           ports:
             - containerPort: 8080
